@@ -2,11 +2,44 @@
 
 **Daily business reading, interview-ready. Read it. Brief it. Defend it.**
 
+[![licence: MIT](https://img.shields.io/badge/licence-MIT-blue)](LICENSE)
+
+[Live app](https://readout-app.vercel.app) · Tested by 4 readers besides me · Sign-up needs an invite code: [ask me on LinkedIn](https://www.linkedin.com/in/anshull-mishra-040454112/)
+
+![Readout's Today page, from demo mode with fictional articles](docs/screenshots/today.png)
+
+## The problem
+
+Reading The Ken, The Arc or Entrackr every morning feels productive, but it rarely turns into answers you can give under pressure in a business, strategy or consulting interview.
+
+## What I decided
+
+- **A tough interviewer on purpose.** 5/10 is an acceptable first-round answer, 8+ needs numbers, structure and a non-obvious insight, and scores are never rounded up.
+- **One new article per person per day.** The limit keeps each session deliberate and the questions demanding.
+- **Never invent links.** Suggested threads come as Google searches, not made-up URLs.
+
+[Why it works this way: the decision log](docs/DECISIONS.md)
+
+## Did it work?
+
+Four readers besides me have used it. Not measured yet: whether scores rise over weeks of practice, or how the AI's scores compare with a human interviewer's.
+
+## What it doesn't solve
+
+It practises structured thinking on one article at a time. It doesn't replace a mock interview with a person, and its scores are only as good as its evaluator prompt.
+
+## Try it
+
+Sign-up needs an invite code: [ask me on LinkedIn](https://www.linkedin.com/in/anshull-mishra-040454112/). The screenshots in this README come from demo mode, with fictional articles.
+
+---
+
+*Everything below is the detail: the daily loop, features, architecture, AI costs, setup and privacy.*
+
 Readout turns the business article you read each morning into practice for business, strategy and consulting interviews. You condense the article, pull a few threads, then sit a timed 10-question interview scored by a deliberately tough AI interviewer that doesn't round up to be kind.
 
 It's a hosted web app: each reader signs up with an invite code and gets a private account.
 
----
 
 ## The daily loop
 
